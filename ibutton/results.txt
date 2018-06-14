@@ -1,5 +1,26 @@
 #Reza
-# 23 5B CA C9 1 0 0 E0@
+# 23 5B CA C9 1 0 0 E0
 
-#Reza LCD read
-:0:1:C9:CA:5B
+# 23 5B CA C9 01 00 00 0E
+
+#Reza LCD read 5
+# 0 1 C9 CA 5B
+
+
+#Read LCD 8
+# AE 00 01 C9 CA 5B
+
+
+##read from emulator
+
+1 0 C0 1 24 DA 0 25 0 0 0 0 0 0 0 0 0 0 0 0 
+
+1 0 A0 1 24 DA 0 34 0 0 0 0 0 0 0 0 0 0 0 0 
+
+81 0 A0 90 19 DA 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+
+###
+
+1 A0 A1 A2 A3 A4 A5 66 0000
+1 B0 B1 B2 B3 B4 B5 42 0000
+

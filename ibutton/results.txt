@@ -1,0 +1,5 @@
+#Reza
+# 23 5B CA C9 1 0 0 E0@
+
+#Reza LCD read
+:0:1:C9:CA:5B
